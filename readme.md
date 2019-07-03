@@ -2,11 +2,7 @@
 
 React Component for card carousel with animation
 
-<video id="video" controls="" autoplay loop poster="./card.png">
-  <source id="mp4" src="./card.mp4" type="video/mp4">
-  <source id="webm" src="./card.webm" type="video/webm">
-  <p>Your user agent does not support the HTML5 Video element.</p>
-</video>
+![Demo](./card.gif)
 
 ## Install 安装
 
