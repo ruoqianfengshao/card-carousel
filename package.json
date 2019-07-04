@@ -2,9 +2,14 @@
   "name": "card-carousel",
   "version": "1.0.0",
   "description": "React Component",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example": "cd example && npx webpack --config webpack.config.js --watch",
+    "build": "tsc build"
   },
   "author": "Vico",
   "license": "ISC",

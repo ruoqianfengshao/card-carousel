@@ -1,8 +1,9 @@
 {
+  "compileOnSave": true,
   "compilerOptions": {
     "experimentalDecorators": true,
     "allowJs": true,
-    "target": "es2015",
+    "target": "es5",
     "module": "esnext",
     "strict": false,
     "jsx": "react",
@@ -12,6 +13,13 @@
     "emitDecoratorMetadata":true ,
     "lib": [ "es6", "dom" ],
     "declaration": false,
-    "sourceMap": true,
-  }
+    "sourceMap": false,
+    "outDir": "dist"
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "examples/dist/**/*"
+  ]
 }

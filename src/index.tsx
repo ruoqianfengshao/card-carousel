@@ -191,7 +191,7 @@ export default class CardCarousel extends React.Component<Props, State> {
                 transform: `translateX(${cardInfo.translateX}) scale(${cardInfo.scale})`,
                 zIndex: 99 - Math.abs(cardInfo.differ),
                 transitionDuration: `${this.props.duration}s`,
-                transitionProperty: 'transform',
+                transitionProperty: 'transform, z-index',
                 visibility: cardInfo.carouselStatus === 'disable' ? 'hidden' : 'visible',
                 verticalAlign: 'baseline',
                 position: 'absolute',
