@@ -62,7 +62,7 @@ class Carousel extends React.Component {
   // todo
   scaleRate?: number,
   // event hook for jumpping to one card, 点击某卡片时的回调
-  onJump?: (e: React.MouseEvent, index: number,
+  onJump?: (e: React.MouseEvent, index: number, cards: React.ReactElement[]) => void,
   // default show index, 初始展示的卡片下标
   defaultShowIndex?: number,
 ```
